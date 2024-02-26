@@ -1,9 +1,14 @@
 {
   "canisters": {
-    "icvault_backend": {
+    "icvault": {
       "candid": "src/icvault_backend/icvault_backend.did",
       "package": "icvault_backend",
       "type": "rust"
+    },
+    "ICP": {
+      "candid": "tokens/icp_ledger.did",
+      "type": "custom",
+      "wasm": "tokens/ledger-canister.wasm.gz"
     }
   },
   "defaults": {
