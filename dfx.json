@@ -1,0 +1,17 @@
+{
+  "canisters": {
+    "icvault_backend": {
+      "candid": "src/icvault_backend/icvault_backend.did",
+      "package": "icvault_backend",
+      "type": "rust"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
