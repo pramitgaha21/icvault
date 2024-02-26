@@ -1,5 +1,7 @@
 # icvault
+Simple Example for Canister Holding and Releasing Icrc1 Standard Token 
 
+#### Commands to Deploy and use canister
 ```bash
 dfx start --clean --background
 
